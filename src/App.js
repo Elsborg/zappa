@@ -1,6 +1,6 @@
 import './App.css';
+import Booking from './components/Booking';
 import Home from './components/Home';
-import Layout from "./components/Layout";
 import Menu from './components/Menu';
 import Navigation from './components/Navigation';
 
@@ -14,6 +14,7 @@ function App() {
       <div className='page-wrapper'>
       <Home />
       <Menu />
+      <Booking />
       </div>
 
       
